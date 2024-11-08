@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2 - CSS</title>
+
+    <!-- external css linking -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- heading -->
+    <h1><u>Image Gallery</u></h1>
+
+    <!-- filter buttons -->
+    <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')">All</button>
+        <button class="btn" onclick="filterSelection('Portraits')">Portraits</button>
+        <button class="btn" onclick="filterSelection('Landscapes')">Landscapes</button>
+        <button class="btn" onclick="filterSelection('Architecture')">Architecture</button>
+    </div>
+
+    <!-- image grid -->
+    <div class="container">
+        <div class="filterDiv Landscapes image-card">
+            <img src="https://keanan557.github.io/lca_work/img/adrian-cosca-VIGKo8oA2C4-unsplash-min.jpg">
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, maxime temporibus nihil recusandae aliquid, doloremque nostrum ipsam ab veritatis, provident mollitia. Eaque dicta expedita cupiditate quidem quam officia ipsam sint.</p>
+        
+            <h3>Misty</h3>
+            <p>Landscape</p>
+      </div>
+        <div class="filterDiv Architecture image-card">
+            <img src="https://keanan557.github.io/lca_work/img/alex-wong-l5Tzv1alcps-unsplash-min.jpg">
+            <h3>Tower</h3>
+            <p class="cat">Architecture</p>
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusamus minima minus, dolores dicta, enim earum aperiam ex nostrum neque exercitationem. Expedita magni dicta iure ratione at cumque possimus quis?</p>
+        </div>
+        <div class="filterDiv Portraits image-card">
+            <img src="https://keanan557.github.io/lca_work/img/christian-holzinger-kEXMAGTivXA-unsplash-min.jpg">
+            <h3>Dark</h3>
+            <p>Portrait</p>
+            <p class="overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit molestiae dolore dolor temporibus, repudiandae earum nemo nam? Sit, consequatur id architecto soluta reiciendis sequi magni, beatae voluptas, aperiam dolores velit!</p>
+        </div>
+        <div class="filterDiv Landscapes image-card">
+            <img src="https://keanan557.github.io/lca_work/img/clay-elliot-woR5DLsWsTA-unsplash-min.jpg">
+            <h3>Forest</h3>
+            <p>Landscape</p>
+            <p class="overlay">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas officiis iste, ducimus eum veritatis facere maxime dolore odio delectus quidem porro nam illum voluptatem laboriosam harum ad similique sequi. Eius?</p>
+        </div>
+        <div class="filterDiv Architecture image-card">
+            <img src="https://keanan557.github.io/lca_work/img/grant-lemons-jTCLppdwSEc-unsplash-min.jpg">
+            <h3>Skyscraper</h3>
+            <p>Architecture</p>
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusamus minima minus, dolores dicta, enim earum aperiam ex nostrum neque exercitationem. Expedita magni dicta iure ratione at cumque possimus quis?</p>
+        </div>
+        <div class="filterDiv Landscapes image-card">
+            <img src="https://keanan557.github.io/lca_work/img/ilias-tsapaliaris-ilias_fly_zen-9gq1L-piKHQ-unsplash-min.jpg">
+            <h3>Bridge</h3>
+            <p>Landscape</p>
+            <p class="overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla laboriosam, non ad in ipsa mollitia recusandae atque repudiandae unde distinctio inventore? Officiis, aliquam? Ab architecto inventore minima quia, optio quisquam?</p>
+        </div>
+        <div class="filterDiv Architecture image-card">
+            <img src="https://keanan557.github.io/lca_work/img/joakim-nadell-K67sBVqLLuw-unsplash-min.jpg">
+            <h3>Building</h3>
+            <p>Architecture</p>
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusamus minima minus, dolores dicta, enim earum aperiam ex nostrum neque exercitationem. Expedita magni dicta iure ratione at cumque possimus quis?</p>
+        </div>
+        <div class="filterDiv Architecture image-card">
+            <img src="https://keanan557.github.io/lca_work/img/lance-anderson-QdAAasrZhdk-unsplash-min.jpg">
+            <h3>Complex</h3>
+            <p>Architecture</p>
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe accusamus minima minus, dolores dicta, enim earum aperiam ex nostrum neque exercitationem. Expedita magni dicta iure ratione at cumque possimus quis?</p>
+        </div>
+        <div class="filterDiv Portraits image-card">
+            <img src="https://keanan557.github.io/lca_work/img/matthew-hamilton-tNCH0sKSZbA-unsplash-min.jpg">
+            <h3>Glasses</h3>
+            <p>Portrait</p>
+            <p class="overlay">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatum tenetur molestias delectus, laboriosam rerum tempore id temporibus dolorum itaque reiciendis ipsam? Temporibus dolor recusandae molestias. Nisi reprehenderit laborum in!</p>
+        </div>
+        <div class="filterDiv Landscapes image-card">
+            <img src="https://keanan557.github.io/lca_work/img/tudor-baciu-vpoQ5n2BlEg-unsplash-min.jpg">
+            <h3>Night City</h3>
+            <p>Landscape</p>
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur vitae officiis quas iusto beatae itaque nam, consectetur vel inventore soluta nulla. Quod fugit ipsum explicabo nulla culpa porro impedit beatae?</p>
+        </div>
+        <div class="filterDiv Portraits image-card">
+            <img src="https://keanan557.github.io/lca_work/img/zulmaury-saavedra-vh_pAs2FH_8-unsplash-min.jpg">
+            <h3>Sleep</h3>
+            <p>Portrait</p>
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus excepturi ratione aut perferendis assumenda praesentium iusto adipisci amet soluta explicabo, natus ad, rerum velit provident nesciunt, magnam impedit distinctio obcaecati.</p>
+        </div>
+        <div class="filterDiv Portraits image-card">
+            <img src="https://keanan557.github.io/lca_work/img/jimmy-fermin-bqe0J0b26RQ-unsplash-min.jpg">
+            <h3>Model</h3>
+            <p>Portrait</p>
+            <p class="overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nam vel repellat dolore, quae nisi. Voluptatibus, iste, voluptates dolorem assumenda temporibus consequatur, id dolore reprehenderit totam expedita veritatis modi neque?</p>
+        </div>
+    </div>
+    <!-- external js -->
+    <script src="js/script.js"></script>
+    <script>
+        filterSelection("all"); // Show all images by default
+    </script>
+</body>
+</html>
